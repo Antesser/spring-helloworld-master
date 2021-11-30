@@ -18,7 +18,7 @@ public class AppConfig {
     @Scope("prototype")
     public Cat getCat() {
         Cat cat = new Cat();
-        cat.setName("Terminator");
+        cat.setName("LoveBuddy");
         return cat;
     }
 }
